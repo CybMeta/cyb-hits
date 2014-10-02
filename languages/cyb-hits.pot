@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cyb Hits - WP Plugin\n"
+"POT-Creation-Date: 2014-10-02 12:50+0100\n"
+"PO-Revision-Date: 2014-10-02 12:50+0100\n"
+"Last-Translator: Juan Padial <juanpadialmolina@gmail.com>\n"
+"Language-Team: CybMeta <hola@cybmeta.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: ../cyb-hits.php:174
+msgid "Cyb Hits Settings"
+msgstr ""
+
+#: ../cyb-hits.php:181
+msgid "Ajax Mode"
+msgstr ""
+
+#: ../cyb-hits.php:185
+msgid "Use ShortInit"
+msgstr ""
+
+#: ../cyb-hits.php:185
+msgid ""
+"<strong>ATTENTION</strong>: This is an advanced option. Check it only if you "
+"know what it means. If select ShortInit method, the ajax request will me be "
+"made a direct call to a PHP file where WordPress is loaded using "
+"WP_SHORTINIT enabled. This can improve performance but it may not work if "
+"custom plugins directory path is being used."
+msgstr ""

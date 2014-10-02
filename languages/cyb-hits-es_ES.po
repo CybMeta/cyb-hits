@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cyb Hits - WP Plugin\n"
+"POT-Creation-Date: 2014-10-02 12:51+0100\n"
+"PO-Revision-Date: 2014-10-02 12:52+0100\n"
+"Last-Translator: Juan Padial <juanpadialmolina@gmail.com>\n"
+"Language-Team: CybMeta <hola@cybmeta.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: ../cyb-hits.php:174
+msgid "Cyb Hits Settings"
+msgstr "Configuración Cyb Hits"
+
+#: ../cyb-hits.php:181
+msgid "Ajax Mode"
+msgstr "Modo Ajax"
+
+#: ../cyb-hits.php:185
+msgid "Use ShortInit"
+msgstr "Utilizar ShortInit"
+
+#: ../cyb-hits.php:185
+msgid ""
+"<strong>ATTENTION</strong>: This is an advanced option. Check it only if you "
+"know what it means. If select ShortInit method, the ajax request will me be "
+"made a direct call to a PHP file where WordPress is loaded using "
+"WP_SHORTINIT enabled. This can improve performance but it may not work if "
+"custom plugins directory path is being used."
+msgstr ""
+"<strong>ATENCIÓN</strong>: Esta es una opción avanzada. Selecciónala sólo si "
+"sabes lo que significa. Si seleccionas el modo ShortInit, la solicitud Ajax "
+"realizará una llamada directa a un archivo PHP dónde WordPress es cargado "
+"con el modo WP_SHORTINIT activado. Esta opción puede mejorar el rendimiento "
+"pero puede que no funcione si se el directorio de plugins utiliza rutas "
+"personalizadas."
+
+#~ msgid "Alert content (HTML allowed)"
+#~ msgstr "Contenido de la alerta (HTML permitido)"
+
+#~ msgid "Bootstrap Auto Popup Settings"
+#~ msgstr "Configuración Bootstrap Auto Popup"
+
+#~ msgid "Delay time to show the popup (miliseconds)"
+#~ msgstr "Tiempo de espera antes de mostrar el popup (milisegundos)"
+
+#~ msgid "Don't show again to the same user in the next number of days"
+#~ msgstr "No mostrar el popup al mismo usuario dentro de los próximos X días"
+
+#~ msgid "Popup title"
+#~ msgstr "Título popup"
+
+#~ msgid "Popup footer (HTML allowed)"
+#~ msgstr "Popup footer (HTML permitido)"
+
+#~ msgid "Popup footer"
+#~ msgstr "Popup footer (HTML permitido)"
