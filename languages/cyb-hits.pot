@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cyb Hits - WP Plugin\n"
-"POT-Creation-Date: 2014-10-02 12:50+0100\n"
-"PO-Revision-Date: 2014-10-02 12:50+0100\n"
+"POT-Creation-Date: 2014-10-21 17:59+0100\n"
+"PO-Revision-Date: 2014-10-21 17:59+0100\n"
 "Last-Translator: Juan Padial <juanpadialmolina@gmail.com>\n"
 "Language-Team: CybMeta <hola@cybmeta.com>\n"
 "Language: en_US\n"
@@ -16,19 +16,19 @@ msgstr ""
 "X-Poedit-SearchPath-0: ..\n"
 "X-Poedit-SearchPath-1: .\n"
 
-#: ../cyb-hits.php:174
+#: ../cyb-hits.php:178
 msgid "Cyb Hits Settings"
 msgstr ""
 
-#: ../cyb-hits.php:181
+#: ../cyb-hits.php:185
 msgid "Ajax Mode"
 msgstr ""
 
-#: ../cyb-hits.php:185
+#: ../cyb-hits.php:189
 msgid "Use ShortInit"
 msgstr ""
 
-#: ../cyb-hits.php:185
+#: ../cyb-hits.php:189
 msgid ""
 "<strong>ATTENTION</strong>: This is an advanced option. Check it only if you "
 "know what it means. If select ShortInit method, the ajax request will me be "
