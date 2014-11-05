@@ -20,7 +20,7 @@ if( !defined('ABSPATH') ) {
 
 function cyb_uptdate_hits(){
 
-  	if( isset($_GET['postID']) ){
+  	if( isset($_GET['postID']) ) {
   	
 		$post_id = intval( $_GET['postID']);
 		
@@ -31,14 +31,15 @@ function cyb_uptdate_hits(){
 			if( isset($get_meta['hits'][0]) ) {
 			
 				$prev = intval($get_meta['hits'][0]);
-				update_post_meta($post_id, 'hits', $prev + 1);
-		
-				$res = array('postID' => $post_id, 'hits' => $prev + 1);
-				wp_send_json_success($res);
+			} else {
+				$prev = 0;
 			}
-		
+			
+			update_post_meta($post_id, 'hits', $prev + 1);
+			$res = array('postID' => $post_id, 'hits' => $prev + 1);
+			wp_send_json_success($res);
+			
 		} else {
-	
 			wp_send_json_error('No post to update.');
 		}
 		
@@ -46,7 +47,7 @@ function cyb_uptdate_hits(){
 		wp_send_json_error('No post to update.');
 	}
 	
-	die('No post to update.');
+	die('You die!');
 	
 }
 
