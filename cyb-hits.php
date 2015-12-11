@@ -121,7 +121,7 @@ class CybHitsAdmin extends CybHits {
 		parent::__construct();
         add_action( 'admin_menu', array( $this, 'add_plugin_page' ) );
         add_action( 'admin_init', array( $this, 'page_init' ) );
-		add_filter( 'manage_edit-post_columns',  array( $this, 'add_new_columns' ) );
+		add_filter( 'manage_post_posts_columns',  array( $this, 'add_new_columns' ) );
 		add_filter( 'manage_edit-post_sortable_columns', array( $this, 'register_sortable_columns' ) );
 		add_filter( 'request', array( $this, 'hits_column_orderby' ) );
 		add_action( 'manage_posts_custom_column' , array( $this, 'custom_columns' ) );
