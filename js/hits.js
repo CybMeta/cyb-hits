@@ -11,7 +11,7 @@
 					postID : post_id
                 });
                 
-			};
+			}
 			
             update_hits(cyb_hits_data.postID);
 
