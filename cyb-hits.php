@@ -118,7 +118,7 @@ class CybHitsAdmin extends CybHits {
      * Start up
      */
     public function __construct() {
-		parent::__construct();
+	    parent::__construct();
         add_action( 'admin_menu', array( $this, 'add_plugin_page' ) );
         add_action( 'admin_init', array( $this, 'page_init' ) );
 		add_filter( 'manage_post_posts_columns',  array( $this, 'add_new_columns' ) );

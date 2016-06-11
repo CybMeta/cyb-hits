@@ -51,5 +51,3 @@ function cyb_uptdate_hits(){
 	die('You die!');
 	
 }
-
-?>
